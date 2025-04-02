@@ -164,12 +164,12 @@ for n in range(len(inputvals)):
      print(inputvals[n],predictedvals[n])
 
 plt.figure(figsize=(8, 6))
-plt.plot(inputvals, targetvals, marker='o', linestyle='-', color='b', label=r'$y = \sqrt{x}$')
+plt.plot(inputvals, targetvals, marker='o', linestyle='-', color='b', label=r'$y$ = sin(x)')
 plt.plot(inputvals, predictedvals, marker='s', linestyle='--', color='r', label=r'predicted values')
 # Labels and title
 plt.xlabel('x')
 plt.ylabel('y')
-plt.title('Graph of $y = \sqrt{x}$')
+plt.title('Graph of $y$ = sin(x)')
 
 # Show grid and legend
 plt.grid(True)
